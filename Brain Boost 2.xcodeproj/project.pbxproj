@@ -12,7 +12,15 @@
 		C869550C2A7C3E5000246F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C869550B2A7C3E5000246F32 /* Assets.xcassets */; };
 		C869550F2A7C3E5000246F32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C869550E2A7C3E5000246F32 /* Preview Assets.xcassets */; };
 		C86955112A7C3E5000246F32 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86955102A7C3E5000246F32 /* Persistence.swift */; };
-		C86955142A7C3E5000246F32 /* Brain_Boost_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C86955122A7C3E5000246F32 /* Brain_Boost_2.xcdatamodeld */; };
+		C869551B2A7C3E8800246F32 /* toDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869551A2A7C3E8800246F32 /* toDo.swift */; };
+		C869551D2A7C3EDA00246F32 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869551C2A7C3EDA00246F32 /* NewToDoView.swift */; };
+		C869551F2A7C3EEB00246F32 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869551E2A7C3EEB00246F32 /* ToDoItem.swift */; };
+		C86955212A7C3F0400246F32 /* timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86955202A7C3F0400246F32 /* timer.swift */; };
+		C86955232A7C3F0E00246F32 /* forum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86955222A7C3F0E00246F32 /* forum.swift */; };
+		C86955252A7C3F1B00246F32 /* planner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86955242A7C3F1B00246F32 /* planner.swift */; };
+		C86955272A7C3F2900246F32 /* studyMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86955262A7C3F2900246F32 /* studyMethod.swift */; };
+		C86955292A7C3F3200246F32 /* methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86955282A7C3F3200246F32 /* methods.swift */; };
+		C869552C2A7C3F5800246F32 /* Key_IterationTwo_ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C869552A2A7C3F5800246F32 /* Key_IterationTwo_ToDoList.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +30,15 @@
 		C869550B2A7C3E5000246F32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C869550E2A7C3E5000246F32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C86955102A7C3E5000246F32 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		C86955132A7C3E5000246F32 /* Brain_Boost_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Brain_Boost_2.xcdatamodel; sourceTree = "<group>"; };
+		C869551A2A7C3E8800246F32 /* toDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDo.swift; sourceTree = "<group>"; };
+		C869551C2A7C3EDA00246F32 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		C869551E2A7C3EEB00246F32 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		C86955202A7C3F0400246F32 /* timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer.swift; sourceTree = "<group>"; };
+		C86955222A7C3F0E00246F32 /* forum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forum.swift; sourceTree = "<group>"; };
+		C86955242A7C3F1B00246F32 /* planner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planner.swift; sourceTree = "<group>"; };
+		C86955262A7C3F2900246F32 /* studyMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyMethod.swift; sourceTree = "<group>"; };
+		C86955282A7C3F3200246F32 /* methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = methods.swift; sourceTree = "<group>"; };
+		C869552B2A7C3F5800246F32 /* Key_IterationTwo_ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Key_IterationTwo_ToDoList.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +73,16 @@
 			children = (
 				C86955072A7C3E4C00246F32 /* Brain_Boost_2App.swift */,
 				C86955092A7C3E4C00246F32 /* ContentView.swift */,
+				C869551A2A7C3E8800246F32 /* toDo.swift */,
 				C869550B2A7C3E5000246F32 /* Assets.xcassets */,
 				C86955102A7C3E5000246F32 /* Persistence.swift */,
-				C86955122A7C3E5000246F32 /* Brain_Boost_2.xcdatamodeld */,
+				C869551C2A7C3EDA00246F32 /* NewToDoView.swift */,
+				C869551E2A7C3EEB00246F32 /* ToDoItem.swift */,
+				C86955202A7C3F0400246F32 /* timer.swift */,
+				C86955222A7C3F0E00246F32 /* forum.swift */,
+				C86955242A7C3F1B00246F32 /* planner.swift */,
+				C86955262A7C3F2900246F32 /* studyMethod.swift */,
+				C86955282A7C3F3200246F32 /* methods.swift */,
 				C869550D2A7C3E5000246F32 /* Preview Content */,
 			);
 			path = "Brain Boost 2";
@@ -68,6 +91,7 @@
 		C869550D2A7C3E5000246F32 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				C869552A2A7C3F5800246F32 /* Key_IterationTwo_ToDoList.xcdatamodeld */,
 				C869550E2A7C3E5000246F32 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -144,9 +168,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C86955112A7C3E5000246F32 /* Persistence.swift in Sources */,
-				C86955142A7C3E5000246F32 /* Brain_Boost_2.xcdatamodeld in Sources */,
+				C869551F2A7C3EEB00246F32 /* ToDoItem.swift in Sources */,
 				C869550A2A7C3E4C00246F32 /* ContentView.swift in Sources */,
+				C869552C2A7C3F5800246F32 /* Key_IterationTwo_ToDoList.xcdatamodeld in Sources */,
+				C869551D2A7C3EDA00246F32 /* NewToDoView.swift in Sources */,
+				C86955272A7C3F2900246F32 /* studyMethod.swift in Sources */,
+				C869551B2A7C3E8800246F32 /* toDo.swift in Sources */,
 				C86955082A7C3E4C00246F32 /* Brain_Boost_2App.swift in Sources */,
+				C86955292A7C3F3200246F32 /* methods.swift in Sources */,
+				C86955212A7C3F0400246F32 /* timer.swift in Sources */,
+				C86955252A7C3F1B00246F32 /* planner.swift in Sources */,
+				C86955232A7C3F0E00246F32 /* forum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,13 +379,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C86955122A7C3E5000246F32 /* Brain_Boost_2.xcdatamodeld */ = {
+		C869552A2A7C3F5800246F32 /* Key_IterationTwo_ToDoList.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C86955132A7C3E5000246F32 /* Brain_Boost_2.xcdatamodel */,
+				C869552B2A7C3F5800246F32 /* Key_IterationTwo_ToDoList.xcdatamodel */,
 			);
-			currentVersion = C86955132A7C3E5000246F32 /* Brain_Boost_2.xcdatamodel */;
-			path = Brain_Boost_2.xcdatamodeld;
+			currentVersion = C869552B2A7C3F5800246F32 /* Key_IterationTwo_ToDoList.xcdatamodel */;
+			path = Key_IterationTwo_ToDoList.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
